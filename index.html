@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            color: hsl(217, 12%, 63%);
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,100;1,9..144,200&family=Montserrat:ital,wght@1,700&family=Overpass&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main class="body_wraper" id="mainbody_wraper">
+        <header class="favicon">
+            <div class="circle"></div>
+            <!-- <img src="./images/icon-star.svg" alt=""> -->
+        </header>
+        <section class="maincontainer">
+            <div class="header1">
+                <h1>How did we do?</h1>
+            </div>
+            <div class="description">
+                <p>please let us know how we did with your support request.All feedback is appreciated to help us improve our offering! </p>
+            </div>
+        </section>
+        <footer>
+            <div class="footer_number">
+                <button id="number1" class="numbers" onclick="changenumner1()">1</button>
+                <button id="number2" class="numbers" onclick="changenumner2()">2</button>
+                <button id="number3" class="numbers" onclick="changenumner3()">3</button>
+                <button id="number4" class="numbers " onclick="changenumner4()">4</button>
+                <button id="number5" class="numbers" onclick="changenumner5()">5</button>
+            </div>
+            <div class="buttoncover ">
+                <button id="buttton" class="button" onclick="">SUBMIT </button>
+            </div>
+        </footer>
+    </main>
+
+
+
+    <section class="tankyoucard " id="tankyoucardbottom">
+
+        <div class="thankimg ">
+            <img src="./images/illustration-thank-you.svg " alt=" "></div>
+        <div class="selection ">
+
+        </div>
+        <div class="thanku ">
+            <h2> Thank you</h2>
+        </div>
+        <div class="appriciation ">
+            <p> We appriciate you taking the time to give a rating. If you ever need more support,dont hesitate to get in touch.
+            </p>
+        </div>
+    </section>
+
+    <div class="attribution ">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge " target="_blank ">Frontend Mentor</a>. Coded by <a href="https://github.com/mikosis123/interactive-rating-component-main">Mikiyas sisay</a>.
+    </div>
+    <script src="./script.js "></script>
+</body>
+
+
+</html>
