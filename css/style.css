@@ -1,0 +1,215 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+html {
+    box-sizing: initial;
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+    max-width: 100vw;
+    min-height: 100vh;
+    background-color: #141519;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.body_wraper {
+    background-image: linear-gradient( hsl(213, 19%, 18%), #171e28);
+    width: 330px;
+    height: 360px;
+    margin: 0px auto;
+    position: absolute;
+    border-radius: 20px 20px 20px 20px;
+    padding: 0 auto;
+}
+
+.favicon {
+    padding: 15px 15px;
+}
+
+.circle {
+    background-image: url(../images/icon-star.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 0px;
+    width: 0px;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: #262f38;
+    padding: 25px 25px;
+}
+
+.header1 {
+    padding: 0 0 15px 24px;
+    color: hsl(0, 0%, 100%);
+}
+
+.description {
+    color: hsl(217, 12%, 63%);
+    font-size: 14px;
+    padding: 0 20px 29px 25px;
+}
+
+.footer_number {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    color: hsl(217, 12%, 63%);
+    margin: 0 27px 25px 27px;
+}
+
+.numbers {
+    color: hsl(217, 12%, 63%);
+    text-decoration: none;
+    height: 45px;
+    width: 45px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: #262f38;
+    border: none;
+    cursor: pointer;
+}
+
+.numbers:hover {
+    background-color: #fc7613;
+    color: hsl(0, 0%, 100%);
+}
+
+.button {
+    background: hsl(25, 97%, 53%);
+    text-align: center;
+    font-size: 1rem;
+    background: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 30px 30px;
+    margin: 0px 35px 30px 25px;
+    padding: 15px 114px 15px 114px;
+    font-family: 'Overpass', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: hsl(0, 0%, 100%);
+    color: #fc7613;
+    font-weight: 400;
+}
+
+
+/* attribute */
+
+.attribution {
+    margin-top: 570px;
+}
+
+
+/* thankyou card */
+
+.tankyoucard {
+    background-image: linear-gradient( hsl(213, 19%, 18%), #171e28);
+    width: 330px;
+    height: 360px;
+    margin: 0px auto;
+    position: absolute;
+    border-radius: 20px 20px 20px 20px;
+    padding: 0 auto;
+}
+
+.thankimg {
+    margin: 27px 84px;
+}
+
+.selection {
+    margin: 0 82px;
+    font-size: 12px;
+    text-align: center;
+    color: #fc7613;
+    padding: 3px 3px;
+    background-color: #262f38;
+    border-radius: 15px 15px;
+}
+
+.thanku {
+    padding: 25px 102px 20px 102px;
+    color: hsl(0, 0%, 100%);
+}
+
+.appriciation p {
+    margin: 0 29px 45px 29px;
+    font-size: 12px;
+    color: hsl(217, 12%, 63%);
+    text-align-last: center;
+}
+
+#tankyoucardbottom {
+    display: none;
+}
+
+
+/* media query */
+
+@media(min-width:775px) {
+    .body_wraper,
+    .tankyoucard {
+        width: 412px;
+        height: 424px;
+    }
+    .favicon {
+        padding: 25px 25px;
+    }
+    .circle {
+        height: 3px;
+        width: 3px;
+    }
+    .header1 {
+        padding: 0 0 22px 32px;
+        font-size: larger;
+    }
+    .description {
+        padding: 0 20px 35px 32px;
+        font-size: 15px;
+    }
+    .footer_number {
+        margin: 0 30px 32px 30px;
+    }
+    .numbers {
+        height: 55px;
+        width: 55px;
+    }
+    .button {
+        align-items: center;
+        width: 343px;
+        height: 48px;
+        margin-left: 32px;
+    }
+    .thankimg {
+        margin: 42px 110px 30px 110px;
+    }
+    .selection {
+        margin: 0 110px;
+        padding: 8px 13px;
+        font-size: 13px;
+    }
+    .thanku {
+        padding: 39px 132px 21px 132px;
+        font-size: larger;
+    }
+    .appriciation p {
+        margin: 0 40px 50px 40px;
+        font-size: 15px;
+    }
+}

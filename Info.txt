@@ -1,0 +1,8 @@
+main container
+    heading margine = 156px
+    width margin= 24px
+background colour = #141519
+small container bc=#212832
+p color=#939aa4
+knumers bc =#262f38
+button color =#fc7613
